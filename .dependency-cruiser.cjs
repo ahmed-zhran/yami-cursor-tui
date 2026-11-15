@@ -4,11 +4,12 @@ module.exports = {
     {
       name: "agent-may-only-import-shared",
       comment:
-        "agent wraps the Cursor SDK and must not depend on Ink UI (app/chat) or anything outside shared.",
+        "agent wraps the Cursor SDK and may import shared only (plus its own files). No app/chat or other src slices.",
       severity: "error",
       from: { path: "^src/agent/" },
       to: {
-        path: "^src/(app|chat)/",
+        path: "^src/",
+        pathNot: "^src/(agent|shared)/",
       },
     },
     {
