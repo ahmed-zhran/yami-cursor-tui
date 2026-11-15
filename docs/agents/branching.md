@@ -4,7 +4,7 @@ How work branches are named, based, reviewed, and landed in this repo. The proce
 
 ## Default base
 
-`release/1` <!-- `/release start <N>` sets this to `release/<N>`; `/release finish` resets it -->
+`main` <!-- `/release start <N>` sets this to `release/<N>`; `/release finish` resets it -->
 
 New specs use this base unless the issue says otherwise. A ticket's base is its spec branch, `spec/<issue>`, not this default. Every issue carries a `**Base:**` line, and every branch mirrors it in `git config branch.<name>.base`.
 
