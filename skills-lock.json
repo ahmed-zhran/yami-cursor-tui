@@ -1,0 +1,365 @@
+{
+  "version": 2,
+  "skills": {
+    "ask-yami": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/ask-yami/SKILL.md",
+      "computedHash": "d2a756c738116f071c52a948cf0ef5dde5891d4cbdc08a79f61f0343e087434a"
+    },
+    "branch-lineage": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/branch-lineage/SKILL.md",
+      "computedHash": "c342e259cd1657d04b7f8486329215ad7574864d08ac5262251a12927471deb7"
+    },
+    "caveman": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/caveman/SKILL.md",
+      "computedHash": "84c1394bddcc466c8e6466332de2f104bff670ff2e2754bbab8e31d61d052793"
+    },
+    "changelog": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/changelog/SKILL.md",
+      "computedHash": "def6b1c8d35ead8cfd24b9a6da5d90bdbe9139945209eb19bf341df6017a6b20"
+    },
+    "code-review": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/code-review/SKILL.md",
+      "computedHash": "824a20a0ffbde7ec8e0e151aee61b326a8036d7ab447c5152e11d1d04caf2c42"
+    },
+    "codebase-design": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/codebase-design/SKILL.md",
+      "computedHash": "d40f025dc1b0f2020663260f38f2bcb8d6ed3523afb11e5fda624b01238677e8"
+    },
+    "debt": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/debt/SKILL.md",
+      "computedHash": "c411ebdf89557db536a1a47f2ad3896582baa8be18849295421fc5d6c0e334bf"
+    },
+    "deep-review": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/deep-review/SKILL.md",
+      "computedHash": "8733a35096f3d5f4791544d1bd6b7c503bb14c29ee41fc4b28b19430c33fa9a3"
+    },
+    "diagnosing-bugs": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/diagnosing-bugs/SKILL.md",
+      "computedHash": "957ee110ea18358d529cca63ff16dc4af84eed698522b079f2a9d2ec4e5aeb90"
+    },
+    "domain-modeling": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/domain-modeling/SKILL.md",
+      "computedHash": "b78689833404148c769077355e12dbe5ad996a158a1e21e58ddf169e439d9d8c"
+    },
+    "extract-surface": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/extract-surface/SKILL.md",
+      "computedHash": "f0ab41daf6f9ddca89507e9fe9ecbe19ce5283d1f3175eda91d4f192e00d767e"
+    },
+    "git-guardrails": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/git-guardrails/SKILL.md",
+      "computedHash": "143f8922acc5602952cbff1cf5ec22c127f4ae80d51ec029848033234f691754"
+    },
+    "grill-me": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "computedHash": "ab1acb9fbd9eaee03da254abb8a8de228d1e7a07475fe959da4a5eefa34ea4b9"
+    },
+    "grill-with-docs": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
+      "computedHash": "02e258f41d210f9b2e7cce9faf62b3c59e8fcebe5d2736369c3cd07d471324f8"
+    },
+    "grilling": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grilling/SKILL.md",
+      "computedHash": "485451958784497cd4c4dbea13cb5bbb579da58fac0d0e45f3bcb310fab68ac7"
+    },
+    "handoff": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/handoff/SKILL.md",
+      "computedHash": "2df57653f4155fe432dcf8fc9f854f6fd1477fcc8b486ff4cb6552571fa13513"
+    },
+    "herdr": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/herdr/SKILL.md",
+      "computedHash": "4c588eda205250652a7f2f93f0562f7dbede1320703009f9ff0fc56d95870d8a"
+    },
+    "herdr-app": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/herdr-app/SKILL.md",
+      "computedHash": "c566c33b85e187458c419ec61aba079925e38f03c21955917c0cb208399d751e"
+    },
+    "herdr-core": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/herdr-core/SKILL.md",
+      "computedHash": "89043723bb167b9c000df5fba5adfb4ea29990575f3dafd9e320ea3e9252da6b"
+    },
+    "herdr-guide": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/herdr-guide/SKILL.md",
+      "computedHash": "23bd8c7f25ba829006ab39e0b64992f3d3ecb8d50fb2be1ce63080547716340c"
+    },
+    "implement": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/implement/SKILL.md",
+      "computedHash": "b3cdc999153c04acce88eeb8dd0673fe4fd3c54958d6bd644125d3b24ea361f1"
+    },
+    "implement-spec": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/implement-spec/SKILL.md",
+      "computedHash": "6fe55462d826d86587c855b18773329832c9b2e598ea79b5f28683cb6d350976"
+    },
+    "improve-codebase-architecture": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "computedHash": "f9609d15ddd69b9ca97c5f93f575a62f1223d24fd95bad01c152ab638d2d4ab5"
+    },
+    "land": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/land/SKILL.md",
+      "computedHash": "393a7aafadf8855a36dbe176e068f1451d1ddbd14fed8b03e17e49487095cd63"
+    },
+    "learnings": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/learnings/SKILL.md",
+      "computedHash": "365a2e343360ba7134e701f3967a5615a14054731ba6fabae4dfdf5ada3d90a1"
+    },
+    "mermaid-validator": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/mermaid-validator/SKILL.md",
+      "computedHash": "8604d9686719b33131eec186c8ace6d364db397b133f30fc9827f11f42412048"
+    },
+    "pr": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/pr/SKILL.md",
+      "computedHash": "e9c1048e94e5ba4194f534bad058c3ee25a272a11b238320e0769ed5cab6d4d3"
+    },
+    "prototype": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/prototype/SKILL.md",
+      "computedHash": "1e3ba2202a5b77b8aa50bc4447432331d6e42590e53ec0935689662cfed199ca"
+    },
+    "reflect": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/reflect/SKILL.md",
+      "computedHash": "69b326b032152488c500862e2ca19c675ba38db220d5b1ce4417a14576253e20"
+    },
+    "release": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/release/SKILL.md",
+      "computedHash": "d4d49f667c3f0a532ac767a1f5ab37a614410d9e48b40ea497b26b9b68fe37ec"
+    },
+    "release-flow": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/release-flow/SKILL.md",
+      "computedHash": "2f34694f4d1ee3fd6287e9c6daa4651e5232c158212ff3e2815f0f2ca520815e"
+    },
+    "research": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/research/SKILL.md",
+      "computedHash": "7662666af51f8b1672ed7d88360d4b82656da21bb7b11c49e956eeb3036b85d5"
+    },
+    "resolving-merge-conflicts": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/resolving-merge-conflicts/SKILL.md",
+      "computedHash": "d92926f681907a75982f280875dfd1f06610a39680a00f361ae08a88bf2233cc"
+    },
+    "retro": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/retro/SKILL.md",
+      "computedHash": "c564447bef950da2c0eeccbedea932a7b9b3510678d3ff81bde05309c5028ceb"
+    },
+    "security-review": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/security-review/SKILL.md",
+      "computedHash": "13784161b06ecacab00b0d4db084d20aeda8ea76935cb7e30d07df03bff0df6d"
+    },
+    "setup-pre-commit": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/setup-pre-commit/SKILL.md",
+      "computedHash": "98523a8db5977c41a095834df8697123bb845ff6ddbb9500733b161f11441a37"
+    },
+    "setup-ts-deep-modules": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/setup-ts-deep-modules/SKILL.md",
+      "computedHash": "b090712878877de11a9681865d734caca73c06eaed3e3bfa6f370f5a61175ac3"
+    },
+    "setup-z-yami-coding-skills": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/setup-z-yami-coding-skills/SKILL.md",
+      "computedHash": "39ad474bc26afcea99b90104bad8c78c8d70388323773ed2c53079a801da6394"
+    },
+    "ship-release": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/ship-release/SKILL.md",
+      "computedHash": "cd86f0fb8982da04f9e53a82904ecaacd460c7e414ad62a1d36529fadffaade1"
+    },
+    "ship-spec": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/ship-spec/SKILL.md",
+      "computedHash": "5b44cc7bee74f13669e6c745941f5544aa44ec11b7bb96b62da7c9974e11533f"
+    },
+    "ship-ticket": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/ship-ticket/SKILL.md",
+      "computedHash": "594dc3cc2873b3b9b7bce3e6c2cdba6f2c315e6e1824383ebb6b31bfc343293a"
+    },
+    "skill-eval": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/skill-eval/SKILL.md",
+      "computedHash": "1bada762d9187aeb085fd61ac27abec38dd90f92fc5c361129cc4ff3004e6f00"
+    },
+    "spec-flow": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/spec-flow/SKILL.md",
+      "computedHash": "40b9628521d79d0f917aceff571a69605fdc27e4ff566053407ddb70d5729069"
+    },
+    "stack-decision": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/stack-decision/SKILL.md",
+      "computedHash": "74ce37f58d636264fbfec82599875e57022646fd6749316c060bb2de0a44ddce"
+    },
+    "start-work": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/start-work/SKILL.md",
+      "computedHash": "21bd88edd1710c0de056a50fc7a7e0466c98a9379e8bfeb5885b295bb367e215"
+    },
+    "surface-architecture": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/surface-architecture/SKILL.md",
+      "computedHash": "c6a6619dada568c15057094408241887c94c8a432ca18fb908f017b50cbcf5fe"
+    },
+    "surface-map": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/surface-map/SKILL.md",
+      "computedHash": "fa07e6effaceda1e557d4f62d276bfad1e09f88b67fbc4b709282e58f78ceabd"
+    },
+    "sync-skills": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/sync-skills/SKILL.md",
+      "computedHash": "9865e41333b10f70fbbfeeb5fc08e9f3c55b9bbd66c9fde67043d0af3b4b2c3e"
+    },
+    "tdd": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/tdd/SKILL.md",
+      "computedHash": "996df6aee0f7933fab5d5dda8b924546634a23b72a0ee06068c44d9069a83235"
+    },
+    "teach": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/teach/SKILL.md",
+      "computedHash": "31bb3eed09dd2787e290e933def99fbf7d65044a29119c224af47c01404ab228"
+    },
+    "ticket-flow": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/ticket-flow/SKILL.md",
+      "computedHash": "dc0a7f3f05467c48568570736ef34ec66edbee04d5194cd3526f5c2f9366ad45"
+    },
+    "to-questionnaire": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/to-questionnaire/SKILL.md",
+      "computedHash": "0bcb2b31a45a3d176daa07c16d6532ee7819b802de081090c3fa856702767b13"
+    },
+    "to-spec": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/to-spec/SKILL.md",
+      "computedHash": "b1d0aeee68524a8b98ee4f8a1df48cc3eadb084a024726fcb7be0b534d376065"
+    },
+    "to-tickets": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/to-tickets/SKILL.md",
+      "computedHash": "6dd2498c7486a578769c4fa8122c003c8f0116341697dc37467e9da83a25537e"
+    },
+    "triage": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/triage/SKILL.md",
+      "computedHash": "f854cf8c854f3dc30679b99b23c6c7174a28a9a67f049cbed6c73ba5ab70131d"
+    },
+    "unslop": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/unslop/SKILL.md",
+      "computedHash": "2b5c0aee074169a0b99569e9b7404728d13746c1d2de740f23f97cb4c2716ed6"
+    },
+    "wait-what": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/wait-what/SKILL.md",
+      "computedHash": "70c9bf9f5a84b6849760f9492f569d5aa12307a0310323fde5f583144730c26c"
+    },
+    "wayfinder": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/wayfinder/SKILL.md",
+      "computedHash": "85c5507ff5986dd681b4f6ce44d862ab4616942a7028916c63a1fafa4b496fc5"
+    },
+    "wizard": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/wizard/SKILL.md",
+      "computedHash": "806f7f7461824054ffaf3344e1e56e5e8a42344e22bdf8d22c6a8117eb9b1c38"
+    },
+    "writing-for-agents": {
+      "source": "ahmed-zhran/z-yami-coding-skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/writing-for-agents/SKILL.md",
+      "computedHash": "a5ddc8e76a3a25504049152c2d514835aba09043e5d4eeb61de4a24bea5aba93"
+    }
+  }
+}
