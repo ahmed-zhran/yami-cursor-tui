@@ -1,6 +1,6 @@
 {
   "name": "yami-cursor-tui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "Terminal chat UI for driving a Cursor agent session",
   "type": "module",
