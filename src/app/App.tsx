@@ -1,12 +1,14 @@
 import React from "react";
-import { createMockAgent } from "../agent/index.js";
+import type { AgentPort } from "../agent/index.js";
 import { ChatShell } from "../chat/index.js";
 
+export type AppProps = {
+  agent: AgentPort;
+};
+
 /**
- * Boot chat against the mock agent port.
- * shortcut: real @cursor/sdk session deferred to a later ticket.
+ * Boot chat against the injected AgentPort (live SDK Session or test mock).
  */
-export function App() {
-  const agent = React.useMemo(() => createMockAgent(), []);
+export function App({ agent }: AppProps) {
   return <ChatShell agent={agent} />;
 }

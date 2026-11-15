@@ -1,6 +1,6 @@
 /**
  * Narrow agent port: send / stream / cancel.
- * Real @cursor/sdk adapter lands in a later ticket; chat talks only to this seam.
+ * Chat talks only to this seam; `createCursorAgent` adapts `@cursor/sdk`.
  */
 
 export type AgentStreamEvent =
