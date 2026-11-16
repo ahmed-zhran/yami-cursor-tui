@@ -7,7 +7,10 @@ type FakeRun = {
     type: string;
     message?: { content: Array<{ type: string; text?: string }> };
   }>;
-  wait: () => Promise<{ status: "finished" | "cancelled" | "error" }>;
+  wait: () => Promise<{
+    status: "finished" | "cancelled" | "error";
+    error?: { message?: string };
+  }>;
   cancel: () => Promise<void>;
 };
 
@@ -77,7 +80,8 @@ describe("createCursorAgent", () => {
     expect(create).toHaveBeenCalledWith(
       expect.objectContaining({
         apiKey: "cursor_test",
-        model: { id: "composer-2.5" },
+        model: { id: "auto" },
+        mode: "agent",
         local: { cwd: process.cwd() },
       }),
     );
@@ -89,6 +93,45 @@ describe("createCursorAgent", () => {
     expect(events).toEqual([
       { type: "assistant_delta", text: "hello " },
       { type: "assistant_delta", text: "world" },
+      { type: "finished" },
+    ]);
+  });
+
+  it("surfaces SDK run errors as assistant text instead of silent idle", async () => {
+    const fakeRun: FakeRun = {
+      status: "running",
+      async *stream() {},
+      async wait() {
+        this.status = "error";
+        return {
+          status: "error",
+          error: { message: "You're out of usage. Switch to Auto." },
+        };
+      },
+      async cancel() {},
+    };
+
+    const create = vi.fn().mockResolvedValue({
+      send: vi.fn().mockResolvedValue(fakeRun),
+      close: vi.fn(),
+      [Symbol.asyncDispose]: async () => undefined,
+    });
+
+    const { createCursorAgent } = await import("./createCursorAgent.js");
+    const agent = await createCursorAgent({
+      apiKey: "cursor_test",
+      createAgent: create,
+    });
+
+    const { events } = collect(agent.send, "hi");
+    await flush();
+    await flush();
+
+    expect(events).toEqual([
+      {
+        type: "assistant_delta",
+        text: "Error: You're out of usage. Switch to Auto.",
+      },
       { type: "finished" },
     ]);
   });

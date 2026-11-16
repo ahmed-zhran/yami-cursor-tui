@@ -157,6 +157,13 @@
       "skillPath": "skills/engineering/mermaid-validator/SKILL.md",
       "computedHash": "8604d9686719b33131eec186c8ace6d364db397b133f30fc9827f11f42412048"
     },
+    "opentui": {
+      "source": "opentui.com",
+      "sourceUrl": "https://opentui.com",
+      "sourceType": "well-known",
+      "computedHash": "2ccc281212b4fc83dd51658d11f5ae76d4a73870b15ca44615f644b8b50c2609",
+      "wellKnownDigest": "sha256:9f6f7b07778903c8e33bbf3f009bb7e7126a142852f608de42af4f5de530e4a6"
+    },
     "pr": {
       "source": "ahmed-zhran/z-yami-coding-skills",
       "sourceType": "github",

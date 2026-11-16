@@ -1,3 +1,3 @@
 # Agent sessions use @cursor/sdk create + send + stream
 
-A steerable session is `Agent.create` with local `cwd: process.cwd()`, then `agent.send` with streamed assistant text. Enter while a run is active steers (cancel + new send); Esc cancels. Auth is `CURSOR_API_KEY` (fail fast). Default model is `composer-2.5`, overridable with `CURSOR_MODEL`. Resume-by-id and cloud runtime are out of v1.
+A steerable session is `Agent.create` with local `cwd: process.cwd()` and mode `agent|plan`, then `agent.send` with streamed assistant text, usage, and edit tool paths. Enter while a run is active steers (cancel + new send); Esc cancels. Auth is `CURSOR_API_KEY` (fail fast). Default model is `auto`, overridable with `CURSOR_MODEL`. SDK run errors surface as assistant text (not silent idle). Status chrome shows path/branch/model/context%/files/mode; interactive mode toggle and approval UI are deferred. Resume-by-id and cloud runtime are out of v1.
